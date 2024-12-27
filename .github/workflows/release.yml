@@ -47,8 +47,17 @@ jobs:
       - name: Install NPM Dependencies
         run: npm install
 
-      - name: 🐧 Build & Publish
-        run: npm run publish-linux
+      - name: install dependencies
+        run: sudo apt-get install -y libgtk-3-0 libnss3 libxss1 libasound2 snapd
+        
+      - name: Installk snapcraft
+        run: sudo snap install snapcraft --classic
+
+      - name: Install AppImage
+        run: sudo apt-get install -y fuse  
+
+      - name: 🐧 Build & Publish AppImage
+        run: npm run publish-linux -- AppImage
         env:
           VITE_LSP_WEBSOCKET_PORT: 54331
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
