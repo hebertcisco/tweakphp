@@ -24,7 +24,7 @@
 
   const openInBrowser = (update?: UpdateInfo) => {
     if (update) {
-      window.ipcRenderer.send('link.open', `https://github.com/tweakphp/tweakphp/releases/tag/v${update.releaseName}`)
+      window.ipcRenderer.send('link.open', `https://github.com/hebertcisco/tweakphp/releases/tag/v${update.releaseName}`)
     }
   }
 

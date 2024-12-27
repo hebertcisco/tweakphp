@@ -6,7 +6,7 @@
     "name": "Saeed Vaziry",
     "email": "mr.saeedvaziry@gmail.com"
   },
-  "version": "0.2.1",
+  "version": "0.2.2",
   "type": "module",
   "main": "dist/main.js",
   "scripts": {
@@ -38,7 +38,7 @@
     ],
     "publish": {
       "provider": "github",
-      "owner": "tweakphp",
+      "owner": "hebertcisco",
       "repo": "tweakphp",
       "private": false
     },

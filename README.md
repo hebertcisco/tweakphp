@@ -13,11 +13,11 @@
 <br>
 
 <div align="center">
-  <img src="https://img.shields.io/github/downloads/tweakphp/tweakphp/total" />
+  <img src="https://img.shields.io/github/downloads/hebertcisco/tweakphp/total" />
 </div>
 
 <div align="center">
-  <a href="https://github.com/tweakphp/tweakphp/releases">Download Now</a>
+  <a href="https://github.com/hebertcisco/tweakphp/releases">Download Now</a>
 </div>
 
 <hr>
