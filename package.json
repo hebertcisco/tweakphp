@@ -15,6 +15,10 @@
     "build": "vue-tsc && vite build",
     "build-mac": "npm run build && electron-builder --mac --universal",
     "publish-mac": "npm run build && electron-builder --publish always --mac --universal",
+    "build-win": "npm run build && electron-builder --win",
+    "publish-win": "npm run build && electron-builder --publish always --win",
+    "build-linux": "npm run build && electron-builder --linux",
+    "publish-linux": "npm run build && electron-builder --publish always --linux",
     "preview": "vite preview",
     "lint": "prettier --check ./",
     "lint:fix": "prettier --write ./"
